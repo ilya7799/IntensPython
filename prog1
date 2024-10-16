@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+ float l,w; //length and width of the rectangle
+ float s; //area of a triangle
+ 
+ printf("\nCalculating the area of a triangle\n");
+ printf("Enter the initial data:\n");
+ printf("Length (cm.) -> ");
+ scanf("%f", &l);
+ printf("Width (cm.) -> ");
+ scanf("%f", &w);
+ s = 1 * w;
+ printf("Area of a rectangle: %10.2f kv.cm.\n", s);
+ printf("\nClick to finish < Enter>");
+}
